@@ -1,0 +1,24 @@
+{
+    "name": "kenzotoda/notification",
+    "description": "This is a library that uses that uses composer as the basis for generating email notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kenzo Ribeiro Toda",
+            "email": "kenzoribeirotoda@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "config": {
+        "vendor-dir": "lib_ext"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\App\\": "app"
+        }
+    }
+}
